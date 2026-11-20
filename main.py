@@ -16,7 +16,7 @@ def main():
     save_repos(data)
     print("Data saved successfully!")
 
-  # Display data using SELECT query (Step 4)
+  # Display data using SELECT query in Step 4
   print("\n--- Displaying Saved Repositories ---")
   conn = sqlite3.connect("google_repos.db")
   cursor = conn.cursor()
